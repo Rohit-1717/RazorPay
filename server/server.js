@@ -11,5 +11,5 @@ export const instance = new Razorpay({
 });
 
 app.listen(process.env.PORT, () => {
-  console.log(`server is running on ${process.env.PORT}`);
+  console.log(`server is running on ${process.env.PORT || 4000}`);
 });
