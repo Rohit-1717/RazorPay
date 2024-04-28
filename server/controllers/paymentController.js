@@ -42,7 +42,7 @@ export const paymentVerification = async (req, res) => {
     });
 
     res.redirect(
-      `http://localhost:3000/paymentsuccess?refer=${razorpay_payment_id}`
+      `https://razor-pay-eta.vercel.app/paymentsuccess?refer=${razorpay_payment_id}`
     );
   } else {
     res.status(400).json({
