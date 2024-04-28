@@ -51,3 +51,7 @@ export const paymentVerification = async (req, res) => {
     });
   }
 };
+
+export const getRoute = async(req,res)=>{
+  res.send("hello ");
+}
